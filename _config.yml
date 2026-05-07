@@ -25,9 +25,9 @@ title: History of Space, Through Time
 tagline: Collection of Space Photography Over 75 Years of Exploration
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-Sheets is a template for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills."
+description: "This digital exhibit documents the evolution of astronomical imaging by archiving celestial photography from the 1950s to the present. By organizing metadata for Earth-based film plates alongside high-definition satellite data, this collection provides a structured look at how 75 years of technological advancement have transformed our visual understanding of the cosmos."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Ben Johnson, Jackson Woolfolk
 
 ##########
 # COLLECTION SETTINGS
