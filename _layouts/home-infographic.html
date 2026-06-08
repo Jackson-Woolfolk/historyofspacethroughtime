@@ -13,15 +13,22 @@ layout: page
   
     </div>
     <div class="col-md-4">
+      
+      <div class="p-3 mb-3 rounded shadow-sm" style="background-color: #fdf6e2; border-left: 5px solid #e67e22; border-top: 1px solid #f9ebd4; border-right: 1px solid #f9ebd4; border-bottom: 1px solid #f9ebd4;">
+        {% include index/time.html %}
+      </div>
 
-      {% include index/time.html %}
+      <div class="p-3 mb-3 rounded shadow-sm" style="background-color: #f0f4f8; border-left: 5px solid #3498db; border-top: 1px solid #dbe3ec; border-right: 1px solid #dbe3ec; border-bottom: 1px solid #dbe3ec;">
+        {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" max=8 %}
+      </div>
 
-      {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" max=8 %}
+      <div class="p-3 mb-3 rounded shadow-sm" style="background-color: #e8f5e9; border-left: 5px solid #2ecc71; border-top: 1px solid #d4eed8; border-right: 1px solid #d4eed8; border-bottom: 1px solid #d4eed8;">
+        {% include index/featured-terms.html field="creator" title="Creators" btn-color="success" max=8 %}
+      </div>
 
-      {% include index/featured-terms.html field="creator" title="Creators" btn-color="success" max=8 %}
+    
+        {% include index/objects.html %}
 
-      {% include index/objects.html %}
-
-    </div>
+      </div>
   
-  </div>
+    </div>
