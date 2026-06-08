@@ -1,9 +1,8 @@
 ---
-title:
-layout:
+title: Data Management Plan
+layout: page
 permalink: /dmp.html
 ---
-
 # Data Management Plan
 
 <iframe src="{{ '/docs/DMP.pdf' | relative_url }}"
